@@ -1,0 +1,92 @@
+h1 {
+    color: #007bff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p, footer ul, footer li {
+    font-size: 14px;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+/* Ajouté par Bing */
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+main {
+    
+    width: 100%;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-link.active {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
